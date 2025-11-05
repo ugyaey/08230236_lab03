@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ugyaey's | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- ===== Navigation ===== -->
+  <header>
+    <nav class="navbar">
+      <button id="toggle-theme">🌙 Dark Mode</button>
+
+      <h1 class="logo">UGYAEY's Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Scroll-to-top button -->
+  <button id="scroll-top" style="display:none;">⬆ Top</button>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello, I’m <span>Ugyaey</span></h2>
+      <p>
+        I am currently pursuing BEd IT Secondary. I am interested in creating and listening to music. Apart from that i also enjoying making videos and engaging myself in the world of vfx.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I am a B.Ed IT student. I am learning both teaching skills and computer knowledge so that I can use technology in education. My aim is to become a future teacher who can make learning easier, interesting, and effective with the help of IT.
+    </p>
+
+    <!-- Profile Image -->
+    <div class="about-image">
+      <img src="lab03/ugyay.jpg" alt="Ugyay">
+    </div>
+  </section>
+
+  <!-- ===== Education ===== -->
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <ul>
+      <li>Samtse College of Education – 2023 - 2027</li>
+      <li>Jakar Higher Secondary School – 2022 Completed</li>
+    </ul>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div>
+        <h3>Technical Skills</h3>
+        <ul>
+          <li>HTML & CSS</li>
+          <li>JavaScript / python</li>
+          <li>Responsive Web Design</li>
+          <li>Git and GitHub</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Team Collaboration</li>
+          <li>Problem Solving</li>
+          <li>Communication</li>
+          <li>Teamwork</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio built using HTML, CSS, and GitHub Pages.</p>
+      </div>
+      <div class="project-card">
+        <h3>Weather App</h3>
+        <p>A simple weather forecast app using JavaScript and an API.</p>
+      </div>
+      <div class="project-card">
+        <h3>College Page Replica</h3>
+        <p>Created a replica of our college website using html, css and GitHub pages.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email me at
+      <a href="mailto:08230236.sce@rub.edu.bt">08230236.sce@rub.edu.bt</a>
+    </p>
+
+    <form id="contact-form" class="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>© <span id="year"></span> Ugyaey. All rights reserved.</p>
+  </footer>
+
+  <!-- ===== JavaScript Link ===== -->
+  <script src="script.js"></script>
+</body>
+</html>
